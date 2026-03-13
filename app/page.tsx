@@ -63,6 +63,9 @@ function calculateStreak(dates: string[]) {
   return (
     <main style={{ textAlign: "center", marginTop: "100px" }}>
       <h1>Daily Learning Streak Tracker</h1>
+      <p style={{ color: "gray", marginBottom: "20px" }}>
+Track your daily learning progress
+</p>
 
       <h2>Current Streak: {streak} days</h2>
       <h3>Total Study Days: {totalDays}</h3>
@@ -82,6 +85,11 @@ function calculateStreak(dates: string[]) {
       >
         I Studied Today
       </button>
+      <a href="/history">
+  <button style={{ marginTop: "10px", padding: "10px 20px" }}>
+    View Study History
+  </button>
+</a>
     </main>
   );
 }
