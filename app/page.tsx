@@ -71,22 +71,34 @@ Track your daily learning progress
       <h3>Total Study Days: {totalDays}</h3>
       <h4>Last Studied: {lastDate || "No study yet"}</h4>
 
-      <button
-        onClick={markStudy}
-        style={{
-          padding: "12px 25px",
-          backgroundColor: "blue",
-          color: "white",
-          border: "none",
-          borderRadius: "6px",
-          fontSize: "16px",
-          marginTop: "20px",
-        }}
-      >
-        I Studied Today
-      </button>
+    <button
+  onClick={markStudy}
+  style={{
+    padding: "12px 25px",
+    backgroundColor: "#2563eb",
+    color: "white",
+    border: "none",
+    borderRadius: "8px",
+    fontSize: "16px",
+    marginTop: "20px",
+    cursor: "pointer"
+  }}
+>
+  I Studied Today
+</button>
       <a href="/history">
-  <button style={{ marginTop: "10px", padding: "10px 20px" }}>
+  <button
+    style={{
+      padding: "10px 20px",
+      marginTop: "15px",
+      backgroundColor: "#10b981",
+      color: "white",
+      border: "none",
+      borderRadius: "8px",
+      fontSize: "15px",
+      cursor: "pointer"
+    }}
+  >
     View Study History
   </button>
 </a>
